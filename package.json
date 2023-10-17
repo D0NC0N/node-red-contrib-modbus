@@ -15,8 +15,8 @@
     "vm2": "~3.9.19"
   },
   "optionalDependencies": {
-    "serialport": "^11.0.1"
-    "@serialport/list": "~11.0.1",
+    "serialport": "^11.0.1",
+    "@serialport/list": "~11.0.1"
   },
   "keywords": [
     "node-red",
@@ -30,7 +30,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/biancoroyal/node-red-contrib-modbus.git"
+    "url": "git+https://github.com/d0nc0n/node-red-contrib-modbus.git"
   },
   "node-red": {
     "version": ">=2",
