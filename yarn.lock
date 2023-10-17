@@ -1200,10 +1200,10 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@plus4nodered/modbus-serial@8.1.0":
+"@open-p4nr/modbus-serial@https://dl.cloudsmith.io/public/iniationware-gmbh/plus4nodered/npm/open-p4nr/modbus-serial/8.1.0/modbus-serial-8.1.0.tgz?_gl=1*2xk2l5*_ga*MTY3MTYyNzYxLjE2NzA5MTc2MDg.*_ga_MT14FK8QKH*MTY5MzMwNTk2MS4xNzQuMS4xNjkzMzA1OTY1LjU2LjAuMA..#_gl=1*1liqgmi*_gcl_au*NDk2NjE5MzkwLjE2ODc1MDQxODk.":
   version "8.1.0"
-  resolved "https://npm.cloudsmith.io/iniationware-gmbh/plus4nodered/@plus4nodered/modbus-serial/-/8.1.0/modbus-serial-8.1.0.tgz"
-  integrity sha512-5mNwd6Vp5GTh/5VZv1/iUL/nzr0yDp/cPBJtoavFk3Y2MJ0K+PUH4q7ENAg6DvWt6Fb5j8+1BzPUkoMUxZqmnA==
+  resolved "https://dl.cloudsmith.io/public/iniationware-gmbh/plus4nodered/npm/open-p4nr/modbus-serial/8.1.0/modbus-serial-8.1.0.tgz?_gl=1*2xk2l5*_ga*MTY3MTYyNzYxLjE2NzA5MTc2MDg.*_ga_MT14FK8QKH*MTY5MzMwNTk2MS4xNzQuMS4xNjkzMzA1OTY1LjU2LjAuMA..#_gl=1*1liqgmi*_gcl_au*NDk2NjE5MzkwLjE2ODc1MDQxODk."
+  integrity sha512-ZXLgGFaLl1Hyi7iiC4iwDQqzsix2OE8zNj70DygP5CJzbBeurN8BpAif3yY9PisIrI0EuVqCIg4PbqQx9yIaiQ==
   dependencies:
     debug "^4.1.1"
     serialport "^10.4.0"
@@ -1215,17 +1215,6 @@
   dependencies:
     "@serialport/bindings-interface" "^1.2.1"
     debug "^4.3.3"
-
-"@serialport/bindings-cpp@10.7.0":
-  version "10.7.0"
-  resolved "https://registry.npmjs.org/@serialport/bindings-cpp/-/bindings-cpp-10.7.0.tgz"
-  integrity sha512-Xx1wA2UCG2loS32hxNvWJI4smCzGKhWqE85//fLRzHoGgE1lSLe3Nk7W40/ebrlGFHWRbQZmeaIF4chb2XLliA==
-  dependencies:
-    "@serialport/bindings-interface" "1.2.1"
-    "@serialport/parser-readline" "^10.2.1"
-    debug "^4.3.2"
-    node-addon-api "^4.3.0"
-    node-gyp-build "^4.3.0"
 
 "@serialport/bindings-cpp@10.8.0":
   version "10.8.0"
@@ -1259,13 +1248,13 @@
   resolved "https://registry.npmjs.org/@serialport/bindings-interface/-/bindings-interface-1.2.2.tgz"
   integrity sha512-CJaUd5bLvtM9c5dmO9rPBHPXTa9R2UwpkJ0wdh9JCYcbrPWsKz+ErvR0hBLeo7NPeiFdjFO4sonRljiw4d2XiA==
 
-"@serialport/list@~10.4.0":
-  version "10.4.0"
-  resolved "https://registry.npmjs.org/@serialport/list/-/list-10.4.0.tgz"
-  integrity sha512-ruy2wTYnQbiWm7YCkR2gwZXta3vKQzr6twPJlp1BS+um8mcgtRfpH4pe1QWFeuzoH9c9zork2xXzoYC0xd8Udg==
+"@serialport/list@~11.0.1":
+  version "11.0.1"
+  resolved "https://registry.yarnpkg.com/@serialport/list/-/list-11.0.1.tgz#0ad68e8d083715e2cbdf3dbdf9f5564bf2517c33"
+  integrity sha512-27+5xfAKpF3mlXWfRiSEsatZF4tHWrWoGhiD0CSVzn13UQ0zQpoiJcjQ8FOiDAkTAGIsIY/zbmfIx6KpkhGrWg==
   dependencies:
-    "@serialport/bindings-cpp" "10.7.0"
-    commander "^9.0.0"
+    "@serialport/bindings-cpp" "11.0.3"
+    commander "10.0.1"
 
 "@serialport/parser-byte-length@10.5.0":
   version "10.5.0"
@@ -2683,6 +2672,11 @@ combined-stream@^1.0.6, combined-stream@^1.0.8, combined-stream@~1.0.6:
   dependencies:
     delayed-stream "~1.0.0"
 
+commander@10.0.1:
+  version "10.0.1"
+  resolved "https://registry.yarnpkg.com/commander/-/commander-10.0.1.tgz#881ee46b4f77d1c1dccc5823433aa39b022cbe06"
+  integrity sha512-y4Mg2tXshplEbSGzx7amzPwKKOCGuoSRP/CjEdwwk0FOGlUbq6lKuoyDZTNZkmxHdJtp54hdfY/JUrdL7Xfdug==
+
 commander@2.15.1:
   version "2.15.1"
   resolved "https://registry.npmjs.org/commander/-/commander-2.15.1.tgz"
@@ -2702,11 +2696,6 @@ commander@^4.0.1:
   version "4.1.1"
   resolved "https://registry.npmjs.org/commander/-/commander-4.1.1.tgz"
   integrity sha512-NOKm8xhkzAjzFx8B2v5OAHT+u5pRQc2UCa2Vq9jYL/31o2wi9mxBA7LIFs3sV5VSC49z6pEhfbMULvShKj26WA==
-
-commander@^9.0.0:
-  version "9.5.0"
-  resolved "https://registry.npmjs.org/commander/-/commander-9.5.0.tgz"
-  integrity sha512-KRs7WVDKg86PWiuAqhDrAQnTXZKraVcCc6vFdL14qrZ/DcWwuRo7VoiYXalXO7S5GKpqYiVEwCbgFDfxNHKJBQ==
 
 commander@~2.19.0:
   version "2.19.0"
@@ -6742,11 +6731,6 @@ node-addon-api@^3.1.0:
   version "3.2.1"
   resolved "https://registry.npmjs.org/node-addon-api/-/node-addon-api-3.2.1.tgz"
   integrity sha512-mmcei9JghVNDYydghQmeDX8KoAm0FAiYyIcUt/N4nhyAipB17pllZQDOJD2fotxABnt4Mdz+dKTO7eftLg4d0A==
-
-node-addon-api@^4.3.0:
-  version "4.3.0"
-  resolved "https://registry.npmjs.org/node-addon-api/-/node-addon-api-4.3.0.tgz"
-  integrity sha512-73sE9+3UaLYYFmDsFZnqCInzPyh3MqIwZO9cw58yIqAZhONrrabrYyYe3TuIqtIiOuTXVhsGau8hcrhhwSsDIQ==
 
 node-addon-api@^5.0.0:
   version "5.1.0"
